@@ -183,19 +183,3 @@ python -m classifier.classifier_run --site Strasbourg --year 2024 \
 
 `apply_prefilter` exists in `classifier_run.py` but is **not called** by `run_classifier`. For now the winter flags from step 5 have no effect on the classification output. Wiring is still to be decided. The function overrides flagged parcels to "Other vegetation" and keeps `pred_name_raw` and `prefiltered` for auditing. Its error message mentions `filter_run --no-labels`, which doesn't exist (the command is the one in step 5).
 
-## Things to verify
-
-- **Step 3:** check the warnings from `_check_parts` (missing months, tile mismatches), the number of rows dropped by each filter, and that the thresholds (5 dB radar, cloud < 1, NDVI dip 0.4) behave sensibly.
-- **Step 4:**
-  - the share of parcels outside any SAFRAN cell
-  - the share of S1 pairs with no clear S2 within 10 days
-  - the eligible-pair percentage per year
-  - cells with very low `n_parcels`
-  - the proportion of neighbour-filled rows
-- **Step 5:** check `clusters.png`, and `irrigated_leakage.csv` on a labelled year (it should be close to 0% for MIS/MIE/MID/SOJ/TRN).
-- **Step 6:**
-  - the printed class counts per year and which classes were merged into Other
-  - the `[window]` lines (months used or dropped in the predict year)
-  - the share of parcels classified and the `reason` values
-  - that `ref_angle` is reasonable
-- **Consistency:** `days=10` must be used in steps 3 and 5 (the filename includes it).
