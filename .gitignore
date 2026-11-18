@@ -1,0 +1,13 @@
+*.pyc
+Z_*
+*.html
+
+*.ipynb
+
+*.shp
+*.dbf
+*.cpg
+*.shx
+*.gpkg
+
+*.txt
