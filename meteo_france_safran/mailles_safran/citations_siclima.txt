@@ -1,0 +1,18 @@
+Citer les informations sur les mailles
+======================================
+
+Les données, méthodologies et codes de calcul sont publiés sur Recherche Data Gouv :
+
+> Bertuzzi, Patrick ; Clastre, Philippe, 2022, "Information sur les mailles SAFRAN", DOI [10.57745/1PDFNL](https://doi.org/10.57745/1PDFNL), Recherche Data Gouv, V1
+
+Citer SICLIMA
+=============
+
+Concernant les calculs :
+
+> Les calculs d’indicateurs ont été réalisés à partir de la plateforme SICLIMA (AgroClim-INRAE) qui intègre la bibliothèque d’indicateurs développée par Garcia de Cortazar-Atauri and Maury (2019) et qui utilise l’approche des indicateurs écoclimatiques développé par Caubel et al., 2015.
+> 
+> - Maury, Olivier ; Garcia de Cortazar Atauri, Iñaki ; Bertuzzi, Patrick ; Persyn, Benoît ; Lagier, Marc, 2021, "SICLIMA : Système d’information de données climatiques maillées", DOI [10.15454/HIPDPZ](https://doi.org/10.15454/HIPDPZ), Portail Data INRAE, V1 
+> - Caubel, Julie ; Garcia de Cortazar-Atauri, Inaki ; Launay, Marie ; De Noblet-Ducoudré, Nathalie ; Huard, Frédéric ; Bertuzzi, Patrick ; Graux, Anne-Isabelle. (2015). Broadening the scope for ecoclimatic indicators to assess crop climate suitability according to ecophysiological, technical and quality criteria. DOI [10.1016/j.agrformet.2015.02.005](http://doi.org/10.1016/j.agrformet.2015.02.005)
+
+Concernant les modèles phénologiques, paramètrages et autres informations, référez-vous à la partie « Choix de culture et de variété » du centre d'aide.
